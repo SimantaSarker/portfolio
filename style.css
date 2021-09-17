@@ -1,0 +1,567 @@
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.peter{
+
+    width: 100%;
+    height: 100vh;
+
+
+}
+.cover
+
+{
+
+    
+    width: 100%;
+    height:600px;
+    background-image: url(./img/picture.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+  
+   /* background: linear-gradient(to bottom right, rgb(150, 150, 175), rgb(138, 24, 43)); */
+
+}
+
+.navbar
+{
+   
+  list-style: none;
+  position:fixed;
+  top: -20px;
+  z-index: 5;
+  display: flex;
+  margin-left: 4%;
+
+
+   
+}
+
+.navbar ul li
+
+{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: large;
+    border-radius: 30%;
+    background-color: rgb(104, 34, 34);
+    margin-top: 3%;
+ 
+}
+
+.navbar ul li a
+{
+    transition: 10;
+    text-decoration: none;
+    color: rgb(248, 241, 241);
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.7;
+
+   
+}
+
+
+
+ .navbar ul li:hover
+{
+
+    background-color: #eeeee4;
+    border-radius: 40%;
+    box-shadow: 0 5px 5px 0 #996608 inset, 0 5px 50px 0 #f4c015,
+    0 5px 5px 0 rgb(150, 115, 19) inset, 0 5px 50px 0 #f4cb15;
+    text-shadow: 0 0 5px #161313;
+
+    
+}
+
+
+  
+
+
+.description
+{
+width:100% ;
+ height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+bottom: 20px;
+
+
+
+
+
+}
+
+
+h1
+
+
+{
+
+    text-align: center;
+   font-style: italic;
+   font-size:50px;
+   color: rgb(221, 233, 223);
+  font-family: ubuntu,sans-serif;
+  font-weight: bold;
+
+
+
+
+}
+
+.btn
+{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    margin: 1%;
+    font-weight: bold;
+    color: #121b1a;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid #eff5f5;
+    background-color: #aa600b;
+    border-radius: 30%;
+    transition: 10;
+    text-transform: uppercase;
+
+
+}
+.btn:hover{
+    box-shadow: 0 5px 5px 0 #998a08 inset, 0 5px 50px 0 #e9f0ef, 
+     0 5px 5px 0 rgb(156, 116, 5) inset, 0 5px 50px 0 #f4f8f8; 
+    text-shadow: 0 0 5px #055520; 
+    
+
+}
+
+
+
+.heading1{
+    font-size:60px;
+    font-weight: bold;
+    color: rgb(9, 10, 9);
+    margin-top: 4%;
+
+ 
+}
+
+
+.heading2
+{
+    font-size:60px;
+    font-weight: bold;
+    color: rgb(9, 10, 9);
+
+
+}
+
+
+
+.line
+{
+    width:100%;
+    height: 3rem;
+    display: flex;
+     justify-content: center;
+    align-self: center;
+
+}
+
+.line1
+
+{
+    margin: 10px;
+    width: 600px;
+    height: 6vh;
+    background-color: rgb(167, 102, 4);
+
+}
+
+.Mypicbox
+
+
+{
+    margin-top: 4%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+background: linear-gradient(to top right, rgba(148, 26, 26, 0), rgb(6, 104, 35));
+  
+
+
+ 
+}
+.pic
+
+
+{
+    width:30%;
+    height: 70vh;
+    margin: 1%;
+    background-image: url(./img/simanta.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4%;
+    box-shadow: 2px 3px 1px #aaaaaa;
+  
+}
+
+.aboutme
+
+
+{
+    width:30%;
+    background-color:rgb(112, 69, 5);
+   height: 70vh;
+    margin: 1%;
+    border-radius: 1%;
+    text-align: center;
+    color: rgb(243, 236, 236);
+   font-size: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 5px 5px 2px #aaaaaa;
+   overflow: auto;
+   font-family: 'Poppins', sans-serif;
+    
+}
+
+.services
+
+{
+    width: 100%;
+    height: 530px;
+    background-color: rgb(15, 12, 12);
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+
+}
+.heading{
+    margin: 1%;
+}
+.title{
+   
+    padding-top: 2%;
+}
+.title1{
+    color: rgb(158, 65, 4);
+    text-align: center;
+    font-size: 30px;
+}
+
+.title2{
+    color: slateblue;
+    font-size: 30px;
+}
+
+
+.card
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card1
+{
+
+    width: 30%;
+   height:40vh;
+    background-color: rgb(171, 173, 16);
+    margin: 1%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   overflow: auto;
+ 
+}
+
+ .card .cardtitle{
+    
+
+  margin: 3%;
+  font-size: 40px;
+  font-style: italic;
+  color: #f3f5f4;
+
+
+ 
+}
+p{
+ 
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 3%;
+
+}
+
+.card1:hover
+{
+    background: linear-gradient(to top right, rgba(155, 9, 9, 0), rgb(190, 187, 7));
+    box-shadow: 0 5px 5px 0 #998a08 inset, 0 5px 50px 0 #e9f0ef, 
+     0 5px 5px 0 rgb(156, 116, 5) inset, 0 5px 50px 0 #192222; 
+    text-shadow: 0 0 5px #f3f5f4; 
+    cursor: pointer;
+    border-radius: 4%;
+}
+
+
+
+
+h3
+{
+    font-size:50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+}
+.contactheading
+{
+   margin: 1%;
+}
+
+.touch
+{
+
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+    }
+    
+
+    .straight1
+    {
+
+
+        height: 1rem;
+       min-width: 15%;
+        background-color: rgb(126, 25, 25);
+        position: relative;
+        left: 25%;
+     
+    }
+
+    .straight2
+    {
+        height:1rem;
+        min-width: 15%;
+        background-color: rgb(100, 16, 16);
+        position: relative;
+        right:  25%;
+    
+    }
+
+    .get
+    {
+        font-size: 30px;
+        min-width: 20%;
+
+    }
+
+
+.contact_part
+{
+    width: 100%;
+
+    height: 500px;
+    display: flex;
+    margin-top: 2%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.content_left
+{
+     width: 50%; 
+  
+    border-radius: 5%;
+    margin:1%;
+    display: flex;
+     padding: 3%;
+      flex-direction: column;
+      background-color: rgb(161, 151, 9);
+
+}
+
+.content_right
+{
+   
+     width: 50%; 
+    padding: 3%;
+   margin: 1%;
+   border-radius: 5%;
+   background-color: rgb(161, 151, 9);
+   
+
+}
+
+
+.touchbox
+{
+position: relative;
+left: 5%;
+top: 6%;
+font-family: 'Poppins', sans-serif;
+font-size: 17px;
+
+
+}
+
+.h5
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.para
+{
+    margin-top: 2%;
+}
+h6
+{
+
+    font-size: 30px;
+    margin-bottom:3%;
+    color: rgb(143, 5, 5);
+}
+.input-row
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+ 
+}
+.message
+{
+    margin-top: 10%;
+   
+ 
+
+}
+
+.input-row .input-group
+{
+flex-basis: 45%;
+border: 3px solid dashed;
+color: rgb(199, 189, 189);
+
+
+}
+
+input
+{
+      width: 100%;
+     border: none;
+     outline: none;
+     padding-bottom: 15px;
+     background-color: rgb(206, 200, 200);
+   
+}
+
+
+
+.btn1
+{
+    font-size: 20px;
+    background-color: rgb(145, 67, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    color: rgb(229, 238, 229);
+    width: 160px;
+    height: 40px;
+    border-radius: 4%;
+
+}
+.btn1:hover{
+    background-color: rgb(14, 10, 10);
+    color: rgb(218, 228, 218);
+    cursor: pointer;
+}
+.three_card
+{
+    
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 3%;
+
+   
+
+}
+.Card1{
+    padding:10px;
+}
+.foter
+{
+    background-color: mediumslateblue;
+    height: 10%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 30px;
+ 
+}
+span{
+    color: rgb(19, 19, 8);
+    font-family: cursive;
+    font-weight: bolder;
+}
+    /*
+.straight,h4
+{
+    margin: 4%;
+}
+
+/*
+
+
+/*
+.stright{
+    display: inline;
+}
+
+
+/*
+h4{
+    font-size:10px;
+    display: inline;
+
+}
+
+
